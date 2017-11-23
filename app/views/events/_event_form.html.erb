@@ -1,7 +1,8 @@
-<!-- events#edit page -->
-<%= link_to 'go back', events_path %>
+<!-- <%= link_to 'go back', events_path %> -->
 
-<%= form_for @event do |f| %>
+<%= render 'event_form' %>
+
+<!-- <%= form_for @event do |f| %>
   <p>
     <%= f.label :name %>
     <%= f.text_field :name %>
@@ -26,4 +27,4 @@
     <%= f.submit %>
   </p>
 
-<% end %>
+<% end %> -->
